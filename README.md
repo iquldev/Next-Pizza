@@ -16,7 +16,6 @@ This version of **Next Pizza** includes several key improvements and features no
 - **🌐 Localization (i18n):** Complete multi-language support (English & Russian) using `next-intl`.
 - **🛡️ BetterAuth Integration:** Replaced the default authentication with **BetterAuth**, featuring custom modal windows and email verification flows.
 - **🛒 Optimized Cart Logic:** Refactored the cart management system for better performance and more reliable state synchronization.
-- **📦 Orders Management:** Created a dedicated `/orders` page for users to view and manage their purchase history.
 - **✅ Smart Filtering:** Improved UX where selected filter items automatically move to the top of the list for easier management.
 - **📱 Enhanced Checkout:** Improved phone number filtering and validation during the checkout process to ensure data integrity.
 - **🔔 Sonner Notifications:** Integrated modern, customizable toast notifications from the Shadcn UI ecosystem.
@@ -79,7 +78,3 @@ This version of **Next Pizza** includes several key improvements and features no
 - `bun db:seed`: Seeds the database with initial data.
 - `bun lint`: Runs ESLint for code quality checks.
 - `bun format`: Formats the codebase using Prettier.
-
----
-
-_Made with ❤️ and a lot of caffeine._
