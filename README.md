@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/logo.png" alt="Next Pizza Logo" width="100" />
+  <img width="1920" height="1048" alt="Screenshot From 2026-10-27 18-49-45" src="https://github.com/user-attachments/assets/e70d0078-b138-4ac5-9cf9-420ffbc549b4" />
   
   <h1>Next Pizza</h1>
   
@@ -31,7 +31,6 @@
 
 ## 🍕 Overview
 
-<<<<<<< Updated upstream
 - **⚡ Advanced Caching:** Implemented sophisticated caching strategies for product and ingredient lists to minimize database load and ensure instantaneous page loads.
 - **📊 Dynamic Sorting:** Added the ability to sort products by price, providing a more standard e-commerce experience.
 - **🔍 Improved Search:** A significantly more robust search implementation for finding products across the entire catalog.
@@ -64,7 +63,6 @@
 - **🌓 Dark Mode & Micro-interactions:** Flawless dark/light theme switching via `next-themes` and fluid layout animations powered by `framer-motion`.
 
 ---
->>>>>>> Stashed changes
 
 ## 🛠 Tech Stack
 
@@ -257,4 +255,3 @@ next-pizza/
 ## 📄 License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
->>>>>>> Stashed changes
