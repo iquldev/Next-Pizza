@@ -5,11 +5,11 @@ import { OrderStatus } from "@/prisma/generated/prisma-client"
 import { sendEmail } from "@/shared/lib/send-email"
 import { CartItemDTO } from "@/shared/services/dto/cart.dto"
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
-  apiVersion: "2026-04-22.dahlia",
-})
-
 export async function POST(req: NextRequest) {
+  const stripe = new Stripe(process.env.STRIPE_SECRET_KEY as string, {
+    apiVersion: "2026-04-22.dahlia",
+  })
+
   const body = await req.text()
   const signature = req.headers.get("stripe-signature") as string
 
